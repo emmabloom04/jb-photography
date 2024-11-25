@@ -5,10 +5,10 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #396e94;
-  --secondary-color: #e7c24f;
-  --accent1-color: #a42212;
-  --accent2-color: white;
+  --primary-color: #2D83BD;
+  --secondary-color: #ffee8c;
+  --accent1-color: #E8CCAB;
+  --accent2-color: #78B1DE;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Charm", "Brush Script MT", cursive;
@@ -18,16 +18,16 @@ Fonts are separated by a | */
   --headline-color-on-white: var(
     --primary-color
   ); /* headlines on a white background */
-  --headline-color-on-color: white; /* headlines on a colored background */
+  --headline-color-on-color: black; /* headlines on a colored background */
   --paragraph-color-on-white: var(
     --primary-color
   ); /* paragraph text on a white background */
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */
-  --paragraph-background-color: var(--primary-color);
-  --nav-link-color: var(--primary-color);
-  --nav-background-color: var(--secondary-color);
+  --paragraph-color-on-color: black; /* paragraph text on a colored background */
+  --paragraph-background-color: var(--secondary-color);
+  --nav-link-color: black;
+  --nav-background-color: white;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: var(--primary-color);
+  --nav-hover-background-color: var(--accent2-color);
 }
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
