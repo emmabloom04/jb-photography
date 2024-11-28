@@ -182,3 +182,12 @@ nav a:hover {
 .logo {
     width: 20%;
 }
+.wireframe {
+    width: 50%;
+}
+.content-img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+}
