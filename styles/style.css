@@ -26,3 +26,11 @@
   --nav-hover-link-color: white;
   --nav-hover-background-color: var(--accent2-color);
 }
+
+.picture-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.picture-grid img {
+    width: 100%;
+}
