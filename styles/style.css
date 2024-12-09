@@ -63,6 +63,20 @@ h1, h2 {
     font-family: var(--heading-font);
     text-align: center;
 }
+.slideshow img {
+    width: 100%;
+    display: none;
+}
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
 .card-links {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
