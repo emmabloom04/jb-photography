@@ -31,12 +31,17 @@ function filter(list, query) {
     return filtered;
 }
 
-renderPictures(pictures);
-const search = document.querySelector(".search-icon");
+console.log(document.title)
+if (document.title == "Portfolio") {
 
-search.addEventListener("click", searchHandler);
-inputField.addEventListener("keydown", (event) => {
-    if (event.key === "Enter") {
-      searchHandler(event);
-    }
-  });
+    renderPictures(pictures);
+    const search = document.querySelector(".search-icon");
+
+    search.addEventListener("click", searchHandler);
+    inputField.addEventListener("keydown", (event) => {
+        if (event.key === "Enter") {
+        searchHandler(event);
+        }
+    });
+
+}
