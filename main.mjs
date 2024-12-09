@@ -31,6 +31,7 @@ function filter(list, query) {
     return filtered;
 }
 
+// js for homepage
 let slideIndex = 0;
 if (document.title == "Josh Bloomfield Photography") {
 
@@ -63,3 +64,13 @@ if (document.title == "Portfolio") {
     });
 
 }
+
+// js for menu
+const menuButton = document.querySelector(".menu-button");
+
+function toggleMenu() {
+    const menu = document.querySelector(".menu");
+    menu.classList.toggle("hide");
+}
+
+menuButton.addEventListener("click", toggleMenu)
