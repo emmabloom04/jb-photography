@@ -170,6 +170,17 @@ footer a:hover {
     padding: 10px;
 }
 
+/* css for aboutme.html */
+.aboutme-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 25px;
+    margin: 25px;
+}
+.aboutme-grid img {
+    width: 100%;
+}
+
 @media screen and (min-width: 600px) {
     .card-links {
         grid-template-rows: 1fr 5fr 5fr;
