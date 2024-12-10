@@ -173,7 +173,7 @@ footer a:hover {
 /* css for aboutme.html */
 .aboutme-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     column-gap: 25px;
     margin: 25px;
 }
@@ -209,6 +209,14 @@ footer a:hover {
     /* css for portfolio.html */
     .picture-grid {
         grid-template-columns: 1fr 1fr;
+    }
+
+    /* css for aboutme.html */
+    .aboutme-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    .aboutme-grid img {
+        width: 100%;
     }
 }
 
