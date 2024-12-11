@@ -184,7 +184,18 @@ footer a:hover {
 /* css for pricing.html */
 .pricing-div {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+    column-gap: 25px;
+    margin: 50px 10%;
+    border: black 1px solid;
+    padding: 25px;
+    border-radius: 5px;
+}
+.pricing-div img {
+    width: 100%;
+}
+.pricing-div p, .pricing-div h2 {
+    text-align: left;
 }
 
 @media screen and (min-width: 600px) {
@@ -226,6 +237,11 @@ footer a:hover {
     }
     .aboutme-grid p {
         font-size: 1.2em;
+    }
+
+    /* css for pricing.html */
+    .pricing-div {
+        grid-template-columns: 1fr 2fr;
     }
 }
 
@@ -278,5 +294,10 @@ footer a:hover {
     /* css for aboutme.html */
     .aboutme-grid p {
         font-size: 1.5em;
+    }
+
+    /* css for pricing.html */
+    .pricing-div {
+        grid-template-columns: 1fr 3fr;
     }
 }
