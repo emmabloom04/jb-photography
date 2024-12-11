@@ -181,6 +181,12 @@ footer a:hover {
     width: 100%;
 }
 
+/* css for pricing.html */
+.pricing-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 @media screen and (min-width: 600px) {
     .card-links {
         grid-template-rows: 1fr 5fr 5fr;
