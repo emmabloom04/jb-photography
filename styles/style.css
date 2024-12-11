@@ -218,6 +218,9 @@ footer a:hover {
     .aboutme-grid img {
         width: 100%;
     }
+    .aboutme-grid p {
+        font-size: 1.2em;
+    }
 }
 
 @media screen and (min-width: 960px) {
@@ -264,5 +267,10 @@ footer a:hover {
     }
     .picture-grid {
         grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    /* css for aboutme.html */
+    .aboutme-grid p {
+        font-size: 1.5em;
     }
 }
